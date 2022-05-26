@@ -1,0 +1,33 @@
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+:root{
+    --green: #3FA14C;
+    --light-green: #c0e8c6b9;
+    --white: #fff;
+    --black: #000;
+}
+
+.navLogo{
+    max-width: 300px;
+}
+
+input:focus,
+input::selection,
+select::selection,
+select:focus
+{
+    outline: 0 !important;
+    border: 1px solid var(--green) !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.formButton{
+    width: 50%;
+}
+
+.footerLogo{
+    max-width: 400px;
+    max-height: 135px;
+}
